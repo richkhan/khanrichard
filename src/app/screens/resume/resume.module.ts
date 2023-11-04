@@ -1,11 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { CvAccordianModule } from 'src/app/common/cv-accordian/cv-accordian.module';
 
 @NgModule({
   declarations: [
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    CvAccordianModule
+    
   ],
   providers: [],
   bootstrap: []
