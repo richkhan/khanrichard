@@ -1,30 +1,141 @@
 <div class="container">
-    <div>
-        <div class="accordion accordion-flush" id="accordionFlushExample">      
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                        <div style="display: flex; align-items: center;">
-                            <span>
-                                <img src="https://avatars.githubusercontent.com/u/34166451?s=200&v=4" width="40" height="40">
-                            </span>
-                            <div style="padding-left: 10px;">
-                                <span>
-                                    <b>Application Engineer</b>
-                                </span>
-                            </div>
-                            <div style="text-align: right;">
-                                <span>
-                                    <i>Vanguard</i>
-                                </span>
-                            </div>
-                        </div>
-                    </button>
-                </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-                </div>
-            </div>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button
+          class="accordion-button"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseOne"
+          aria-expanded="true"
+          aria-controls="collapseOne"
+        >
+          <span
+            ><img
+              src="https://avatars.githubusercontent.com/u/34166451?s=200&v=4"
+              width="50"
+              height="50"
+          /></span>
+          <div style="padding-left: 10px">
+            <span>
+              <h5>
+                Application Engineer II
+                <span class="badge text-bg-success" style="margin-right: 5px"
+                  ><i>Java</i></span
+                >
+                <span class="badge text-bg-success" style="margin-right: 5px"
+                  ><i>Python</i></span
+                >
+                <span class="badge text-bg-success" style="margin-right: 5px"
+                  ><i>AWS</i></span
+                >
+                <span class="badge text-bg-success" style="margin-right: 5px"
+                  ><i>Scala</i></span
+                >
+                <span class="badge text-bg-success" style="margin-right: 5px"
+                  ><i>Angular</i></span
+                >
+              </h5>
+            </span>
+            <h6>Vanguard</h6>
+            <h6>
+              <i>May 2021 - <b>Present</b></i>
+            </h6>
+          </div>
+        </button>
+      </h2>
+      <div
+        id="collapseOne"
+        class="accordion-collapse collapse show"
+        aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample"
+      >
+        <div class="accordion-body">
+          Industry: Financial Services<br />
+          Description: <br />
+          <ul>
+            <li>
+              Developed and maintained a web application using Angular 11, HTML,
+              CSS, and JavaScript.
+            </li>
+            <li>
+              Developed and maintained a web application using Angular 11, HTML,
+              CSS, and JavaScript.
+            </li>
+            <li>
+              Developed and maintained a web application using Angular 11, HTML,
+              CSS, and JavaScript.
+            </li>
+            <li>
+              Developed and maintained a web application using Angular 11, HTML,
+              CSS, and JavaScript.
+            </li>
+          </ul>
         </div>
+      </div>
     </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button
+          class="accordion-button collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseTwo"
+          aria-expanded="false"
+          aria-controls="collapseTwo"
+        >
+          Accordion Item #2
+        </button>
+      </h2>
+      <div
+        id="collapseTwo"
+        class="accordion-collapse collapse"
+        aria-labelledby="headingTwo"
+        data-bs-parent="#accordionExample"
+      >
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is
+          hidden by default, until the collapse plugin adds the appropriate
+          classes that we use to style each element. These classes control the
+          overall appearance, as well as the showing and hiding via CSS
+          transitions. You can modify any of this with custom CSS or overriding
+          our default variables. It's also worth noting that just about any HTML
+          can go within the <code>.accordion-body</code>, though the transition
+          does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button
+          class="accordion-button collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseThree"
+          aria-expanded="false"
+          aria-controls="collapseThree"
+        >
+          Accordion Item #3
+        </button>
+      </h2>
+      <div
+        id="collapseThree"
+        class="accordion-collapse collapse"
+        aria-labelledby="headingThree"
+        data-bs-parent="#accordionExample"
+      >
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden
+          by default, until the collapse plugin adds the appropriate classes
+          that we use to style each element. These classes control the overall
+          appearance, as well as the showing and hiding via CSS transitions. You
+          can modify any of this with custom CSS or overriding our default
+          variables. It's also worth noting that just about any HTML can go
+          within the <code>.accordion-body</code>, though the transition does
+          limit overflow.
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+<br />
