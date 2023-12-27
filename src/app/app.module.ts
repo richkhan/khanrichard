@@ -6,10 +6,14 @@ import { ProjectsComponent } from './screens/projects/projects.component';
 import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
 import { NavbarComponent } from './common/navbar/navbar.component';
+import { HomeComponent } from './screens/home/home.component';
+import { ResumeComponent } from './screens/resume/resume.component';
 
 const routes: Routes = [
   // Existing routes...
-  { path: '', component: ProjectsComponent },
+  { path: '', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
+  { path: 'resume', component: ResumeComponent },
   { path: 'projects', component: ProjectsComponent },
 ];
 
@@ -17,6 +21,8 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     NavbarComponent,
+    HomeComponent,
+    ResumeComponent,
     ProjectsComponent
   ],
   imports: [
